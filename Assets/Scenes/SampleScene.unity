@@ -16119,7 +16119,7 @@ MonoBehaviour:
   lookAheadForSpeedFactor: 0.2
   progressStyle: 0
   pointToPointThreshold: 4
-  target: {fileID: 0}
+  target: {fileID: 4775773985671167}
 --- !u!1 &1634422479473191
 GameObject:
   m_ObjectHideFlags: 0
@@ -16196,6 +16196,7 @@ GameObject:
   - component: {fileID: 4465036829356225}
   - component: {fileID: 33606436915443921}
   - component: {fileID: 23158755398064447}
+  - component: {fileID: 1664268617402692}
   m_Layer: 0
   m_Name: Enemy3
   m_TagString: Untagged
@@ -16203,6 +16204,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1664268617402692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664268617402691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circuit: {fileID: 1318174599}
+  lookAheadForTargetOffset: 5
+  lookAheadForTargetFactor: 0.1
+  lookAheadForSpeedOffset: 10
+  lookAheadForSpeedFactor: 0.2
+  progressStyle: 0
+  pointToPointThreshold: 4
+  target: {fileID: 4465036829356225}
 --- !u!1 &1799680418720618
 GameObject:
   m_ObjectHideFlags: 0
@@ -16298,6 +16319,7 @@ GameObject:
   - component: {fileID: 4331567980883597}
   - component: {fileID: 33998617910334469}
   - component: {fileID: 23579581396258989}
+  - component: {fileID: 1946970753421968}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Untagged
@@ -16305,6 +16327,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1946970753421968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946970753421967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circuit: {fileID: 1058892988}
+  lookAheadForTargetOffset: 5
+  lookAheadForTargetFactor: 0.1
+  lookAheadForSpeedOffset: 10
+  lookAheadForSpeedFactor: 0.2
+  progressStyle: 0
+  pointToPointThreshold: 4
+  target: {fileID: 4331567980883597}
 --- !u!4 &4010973900069655
 Transform:
   m_ObjectHideFlags: 0
